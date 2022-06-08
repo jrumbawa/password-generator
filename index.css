@@ -12,6 +12,10 @@ body {
   display: block;
 }
 
+.dark-text {
+  color: #202b3c;
+}
+
 .btn {
   display: inline-block;
   border: none;
@@ -56,8 +60,8 @@ header {
 
 .password {
   background-color: #273549;
+  color: #55f991;
   border-radius: 6px;
-  color: #202b3c;
   text-align: center;
   padding: 11.5px 0;
   width: 211px;
