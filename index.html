@@ -12,19 +12,30 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <main class="app">
       <header>
-        <h1>Generate a <span>random password</span></h1>
-        <p>Never use an insecure password again</p>
-        <button><i class="fa-solid fa-bolt"></i> Generate passwords</button>
+        <h1 class="title">
+          Generate a <span class="accent-text">random password</span>
+        </h1>
+        <p class="subtitle">Never use an insecure password again</p>
+        <button class="btn">
+          <i class="fa-solid fa-bolt"></i> Generate passwords
+        </button>
       </header>
-      <section>
-        <div><i class="fa-solid fa-ellipsis"></i></div>
-        <div><i class="fa-solid fa-ellipsis"></i></div>
-        <div><i class="fa-solid fa-ellipsis"></i></div>
-        <div><i class="fa-solid fa-ellipsis"></i></div>
+      <section class="passwords">
+        <div class="password"><i class="fa-solid fa-ellipsis"></i></div>
+        <div class="password"><i class="fa-solid fa-ellipsis"></i></div>
+        <div class="password"><i class="fa-solid fa-ellipsis"></i></div>
+        <div class="password"><i class="fa-solid fa-ellipsis"></i></div>
       </section>
     </main>
   </body>
