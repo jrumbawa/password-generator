@@ -1,3 +1,8 @@
+let passwordOne = document.getElementById('password-one')
+let passwordTwo = document.getElementById('password-two')
+let passwordThree = document.getElementById('password-three')
+let passwordFour = document.getElementById('password-four')
+let generateBtn = document.getElementById('generate-btn')
 let values = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()'
 let arrayOfValues = values.split('')
 
@@ -10,4 +15,9 @@ function generatePassword() {
   return password
 }
 
-console.log(generatePassword())
+function setPasswords() {
+  passwordOne.textContent = generatePassword()
+  passwordTwo.textContent = generatePassword()
+  passwordThree.textContent = generatePassword()
+  passwordFour.textContent = generatePassword()
+}
